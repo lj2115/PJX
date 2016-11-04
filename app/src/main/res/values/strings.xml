@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">泡娇香</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- 页面名称 -->
+    <string name="main_navigation_home">首页</string>
+    <string name="main_navigation_im">订单</string>
+    <string name="main_navigation_user">我的</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+
+
+
+</resources>

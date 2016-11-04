@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="status_bar_bg">#EF3A19</color>
+	<!-- 该app使用-->
+    <color name="main_header_bg">#DF3C35</color>
+    <color name="main_footer_bg">#f9f9f9</color>
+	<!-- 底栏字体颜色 -->
+	<color name="footer_text_color_normal">#999</color>
+	<color name="footer_text_color_selected">#DE3C34</color>
+
+
+	<!-- list_heard_title_color-->
+	<color name="list_heard_title_color">#b3b3b3</color>
+	<color name="line_view_color">#e3e4e5</color>
+
+	<color name="md_grey_100">#F5F5F5</color>
+	<color name="search_edit_gray">#ffcccccc</color>
+
+
+
+
+
+	<item name="gray_holo_dark" type="color">#ff464646</item>
+	<item name="gray_holo_light" type="color">#ffd0d0d0</item>
+
+	<!--line chart -->
+	<color name="default_lineColor">#0099cc</color>
+	<color name="default_chartBackgroundColor">#ffffff</color>
+	<color name="default_chartFillColor">#800099cc</color>
+	<color name="default_indicatorColor">#0099cc</color>
+	<color name="default_labelColor">#000000</color>
+
+
+	<color name="normal_red_color">#f04b4b</color>
+	<color name="normal_green_color">#0daa11</color>
+	<color name="normal_gray_color">#e6e6e6</color>
+	<color name="normal_white_color">#ffffff</color>
+	<color name="TextColorWhite">#FFFFFFFF</color>
+	<color name="order_num_tv_color">#4c4c4c</color>
+
+
+
+	<!-- 对话框颜色 -->
+	<color name="trans">#00000000</color>
+	<color name="alertdialog_line">#c6c6c6</color>
+	<color name="actionsheet_blue">#037BFF</color>
+	<color name="actionsheet_red">#FD4A2E</color>
+	<color name="actionsheet_gray">#8F8F8F</color>
+
+
+
+
+	<color name="light_green">#1fbbac</color>
+	<color name="light_blue">#0aa1bc</color>
+	<color name="light_yellow">#fec02e</color>
+	<color name="light_orange">#fc895e</color>
+	<color name="light_red">#f45764</color>
+
+	<color name="title_color">#333333</color>
+	<color name="sub_title_color">#666666</color>
+	<color name="sub_title_light_color">#828282</color>
+	<color name="des_color">#bfbebe</color>
+
+
+	<color name="bg_color">#efeff4</color>
+
+	<color name="bg_bar">#383838</color>
+	<color name="transparent">#00000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="gray">#808080</color>
+	<color name="red">#FF0000</color>
+	<color name="gold">#FFD700</color>
+	<color name="yellow">#FFFF00</color>
+	<color name="green">#008000</color>
+	<color name="blue">#0000FF</color>
+	<color name="purple">#800080</color>
+	<color name="pink">#FFC0CB</color>
+	<color name="orange">#FFA500</color>
+	<color name="yellow_lemon">#FFFACD</color>
+	<color name="gray_light">#DFDFDF</color>
+	<color name="gray_white">#F5F5F5</color>
+	<color name="gray_slate">#708090</color>
+	<color name="blue_light">#0083FF</color>
+
+	<!-- 头部文字颜色 -->
+	<color name="background_color">#ffffffff</color>
+	<color name="head_text">#0e5986</color>
+	<color name="main_head_title">#ffffff</color>
+	<color name="main_head_title_shadow_color">#ffffffff</color>
+	<color name="company_name_color">#959595</color>
+	<color name="title_base_button_text_color">#ffffff</color>
+	<color name="list_view_bg">#efefef</color>
+
+	<color name="card_color_red">#fa8282</color>
+	<color name="card_color_orange">#ff8048</color>
+	<color name="card_color_yellow">#ffd237</color>
+	<color name="card_color_green">#abbf4f</color>
+	<color name="card_color_blue">#55b3da</color>
+	<color name="card_color_purple">#ae7fc7</color>
+
+	<!-- 手势密码 -->
+	<color name="color_security_bg">#203c54</color>
+	<color name="color_security_press">#38c9ff</color>
+
+	<!-- 通用 -->
+	<color name="color_text_grey">#49596b</color>
+	<color name="futures_green">#ff40ab5e</color>
+	<color name="futures_red">#d13939</color>
+	<color name="color_login">#292c35</color>
+	<color name="color_white">#ffffff</color>
+	<color name="color_yellow">#fece00</color>
+	<color name="color_grey">#919aac</color>
+	<color name="color_blue">#04d6fc</color>
+	<color name="color_black">#20242b</color>
+	<color name="color_text_value_grey">#8e9aab</color>
+	<color name="color_cell_grey">#d7dbe2</color>
+	<color name="color_yubibao_asset_bg">#e6eaf0</color>
+	<color name="color_red1">#ef3f2f</color>
+	<color name="color_red">#d13a38</color>
+	<color name="refresh_text_color_gray">#999999</color>
+	<color name="item_back_press">#10000000</color>
+
+</resources>

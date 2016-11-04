@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/main_header_bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/main_header_bg">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/address_tag"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="送至：南京市建邺区江东中路188号"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/dowm"/>
+        </LinearLayout>
+        <!--搜索框 -->
+        <com.newtouch.pjx.view.SearchEditText
+            android:id="@+id/activity_main_input_edittext"
+            style="@style/editTextStyle"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <!--滚动图片-->
+    <RelativeLayout
+        android:id="@+id/layout_ent_gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:background="@color/white">
+        <com.newtouch.pjx.view.loopviewpager.AutoLoopViewPager
+            android:id="@+id/fragment_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <com.newtouch.pjx.view.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/fragment_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp" />
+    </RelativeLayout>
+
+    <!--图片 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/ic_guanggao"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="15dp"/>
+
+    <!--<include layout="@layout/layout_main_fragment_body"/>-->
+
+    <!--推荐菜品 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_tuijian"
+                android:layout_marginLeft="15dp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_right"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+
+        <!--菜单 -->
+        <include layout="@layout/layout_caidan"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

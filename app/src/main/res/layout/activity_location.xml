@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_header_bg">
+        
+        <ImageView 
+            android:id="@+id/iv_rleft"
+            android:layout_width="14sp"
+            android:layout_height="14sp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/nav_back"
+            android:onClick="true"
+            android:contentDescription=""/>
+        <!-- 
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_rleft"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:text="@string/back"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/used"/> -->
+        
+        <TextView 
+            android:id="@+id/tv_shopname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:text="切换地址"
+            android:textColor="@color/white"/>
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:background="@color/main_header_bg"
+	        android:paddingTop="10dp"
+	        android:paddingLeft="20dp"
+	        android:paddingRight="20dp"
+	        android:paddingBottom="20dp">
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backwhite">
+            
+            <ImageView 
+                android:id="@+id/iv_search"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:contentDescription=""
+                android:layout_centerVertical="true"
+                android:src="@mipmap/search_icon"/>
+            
+            <EditText 
+	            android:id="@+id/et_searchkey"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:textSize="16sp"
+	            android:layout_centerVertical="true"
+	            android:layout_toRightOf="@+id/iv_search"
+	            android:layout_marginLeft="5dp"
+	            android:background="@null"
+	            android:hint="请输入地址"/>
+            
+        </RelativeLayout>
+	        
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id="@+id/ll_frg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+    </LinearLayout>
+	
+    
+    
+</LinearLayout>
